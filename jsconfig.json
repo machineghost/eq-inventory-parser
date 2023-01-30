@@ -1,0 +1,16 @@
+{
+  "typescript.tsserver.log": "verbose",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowUmdGlobalAccess": true,
+    "checkJs": true,
+    "strictNullChecks": false,
+    "strict": false,
+    "module": "commonjs",
+    "target": "ES6",
+    "paths": {
+      "*": ["types/*", "*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "build/*"]
+}

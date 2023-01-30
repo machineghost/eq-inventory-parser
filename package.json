@@ -1,0 +1,21 @@
+{
+  "name": "spellparser",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "GOOGLE_SERVICE_ACCOUNT_EMAIL=\"kingdom-spells@goblincraft-188907.iam.gserviceaccount.com\" GOOGLE_PRIVATE_KEY=\"71d45950f398eeaf8b3ce9a1066528c40cc4004b\" node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^10.1.0",
+    "google-spreadsheet": "^3.3.0",
+    "localdata": "^0.1.3",
+    "lowdb": "^4.0.0"
+  }
+}
